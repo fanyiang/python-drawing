@@ -31,7 +31,7 @@ plt.imshow(a,cmap=newcmp2,interpolation='bicubic',extent=(1,10,60,100)) #白色�
 
 frame = plt.gca() #读取当前图层
 ax.yaxis.tick_right()  #纵坐标移到右边
-ax.set_yticklabels(('1','-20','20','60','100','140','180')) #自定义yticks显示的值，第一个label不显示
+ax.set_yticklabels(('-80','-60','-40','-20','0','20','40')) #自定义yticks显示的值，第一个label不显示
 frame.spines['top'].set_visible(False)  #上框线不显示
 frame.spines['bottom'].set_visible(False)
 frame.spines['right'].set_visible(False)
